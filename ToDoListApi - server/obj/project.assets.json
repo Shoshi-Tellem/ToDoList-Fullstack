@@ -2729,11 +2729,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\פרקטיקוד\\ToDoList Fullstack\\ToDoList Fullstack.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\פרקטיקוד\\ToDo List\\ToDoListApi - server\\ToDoList Fullstack.csproj",
       "projectName": "ToDoList Fullstack",
-      "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\פרקטיקוד\\ToDoList Fullstack\\ToDoList Fullstack.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\פרקטיקוד\\ToDo List\\ToDoListApi - server\\ToDoList Fullstack.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\פרקטיקוד\\ToDoList Fullstack\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\פרקטיקוד\\ToDo List\\ToDoListApi - server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
