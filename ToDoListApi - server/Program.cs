@@ -14,7 +14,6 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddEndpointsApiExplorer();
-
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
@@ -31,19 +30,6 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-app.Use(async (context, next) =>
-{
-    try
-    {
-        await next.Invoke();
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine($"Exception: {ex.Message}");
-        throw;
-    }
-});
-
 app.MapGet("items", async (ToDoDbContext context) =>
 {
     return Results.Ok(await context.Items.ToListAsync());
@@ -57,22 +43,28 @@ app.MapGet("items/{id}", async (int id, ToDoDbContext context) =>
     return Results.Ok(existItem);
 });
 
-app.MapPost("items", async (Item item, ToDoDbContext context) => {
+app.MapPost("items", async (Item item, ToDoDbContext context) =>
+{
+    var existItem = await context.Items.FindAsync(item.Id);
+    if (existItem != null)
+        return Results.Conflict("An item with the same Id already exists.");
     await context.Items.AddAsync(item);
     await context.SaveChangesAsync();
     return Results.Created($"/items/{item.Id}", item);
 });
 
-app.MapPut("items", async (Item item, ToDoDbContext context) => {
-    var existItem = await context.Items.FindAsync(item.Id);
+app.MapPut("items/{id}", async (int id, bool isComplete, ToDoDbContext context) =>
+{
+    var existItem = await context.Items.FindAsync(id);
     if (existItem == null)
         return Results.NotFound();
-    context.Items.Update(item);
+    existItem.IsComplete = isComplete;
     await context.SaveChangesAsync();
     return Results.NoContent();
 });
 
-app.MapDelete("items", async (int id, ToDoDbContext context) => {
+app.MapDelete("items/{id}", async (int id, ToDoDbContext context) =>
+{
     var existItem = await context.Items.FindAsync(id);
     if (existItem == null)
         return Results.NotFound();

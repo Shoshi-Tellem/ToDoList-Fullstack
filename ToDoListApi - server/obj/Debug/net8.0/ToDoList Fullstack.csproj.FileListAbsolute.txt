@@ -103,32 +103,29 @@ C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDoList Fullstack\bi
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDoList Fullstack\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDoList Fullstack\obj\Debug\net8.0\ToDoList Fullstack.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDoList Fullstack\bin\Debug\net8.0\package-lock.json
+C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\ToDoList Fullstack.exe
+C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\ToDoList Fullstack.dll
+C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\appsettings.json
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\package-lock.json
-C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\ToDoList Fullstack.exe
-C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\ToDoList Fullstack.deps.json
-C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\ToDoList Fullstack.runtimeconfig.json
-C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\ToDoList Fullstack.dll
-C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\ToDoList Fullstack.pdb
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Humanizer.dll
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Mono.TextTemplating.dll
-C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\MySqlConnector.dll
-C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -207,5 +204,8 @@ C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\obj\Debug\net8.0\ToDoList Fullstack.dll
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\obj\Debug\net8.0\refint\ToDoList Fullstack.dll
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\obj\Debug\net8.0\ToDoList Fullstack.pdb
+C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\ToDoList Fullstack.deps.json
+C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\ToDoList Fullstack.runtimeconfig.json
+C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\ToDoList Fullstack.pdb
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\obj\Debug\net8.0\ToDoList Fullstack.genruntimeconfig.cache
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\obj\Debug\net8.0\ref\ToDoList Fullstack.dll
