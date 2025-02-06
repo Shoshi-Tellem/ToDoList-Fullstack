@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToDoList Fullstack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8833010fff5b7d6052e6da3155539b2fd7e04cce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e05bb8b72aba6f3d47e0b52def1d63cfc14ca85c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToDoList Fullstack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToDoList Fullstack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
