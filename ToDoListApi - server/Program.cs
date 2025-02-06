@@ -31,6 +31,8 @@ if (app.Environment.IsDevelopment())
     });
 }
 
+app.MapGet("/", () => "toDoListServer api is running ");
+
 app.MapGet("items", async (ToDoDbContext context) =>
 {
     return Results.Ok(await context.Items.ToListAsync());
