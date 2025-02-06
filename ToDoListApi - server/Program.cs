@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ToDoList_Fullstack;
 
@@ -53,12 +54,12 @@ app.MapPost("items", async (Item item, ToDoDbContext context) =>
     return Results.Created($"/items/{item.Id}", item);
 });
 
-app.MapPut("items/{id}", async (int id, bool isComplete, ToDoDbContext context) =>
+app.MapPut("items/{id}", async (int id, ToDoDbContext context) =>
 {
     var existItem = await context.Items.FindAsync(id);
     if (existItem == null)
         return Results.NotFound();
-    existItem.IsComplete = isComplete;
+    existItem.IsComplete = !existItem.IsComplete;
     await context.SaveChangesAsync();
     return Results.NoContent();
 });
