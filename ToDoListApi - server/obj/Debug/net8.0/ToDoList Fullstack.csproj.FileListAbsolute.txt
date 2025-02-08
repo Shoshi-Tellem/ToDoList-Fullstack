@@ -209,3 +209,4 @@ C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\ToDoList Fullstack.pdb
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\obj\Debug\net8.0\ToDoList Fullstack.genruntimeconfig.cache
 C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\obj\Debug\net8.0\ref\ToDoList Fullstack.dll
+C:\Users\User\Desktop\ש.ב\dot .NET core\פרקטיקוד\ToDo List\ToDoListApi - server\bin\Debug\net8.0\package.json
