@@ -1,35 +1,23 @@
-const express = require('express');
+import express from 'express';
+import renderApi from '@api/render-api';
 
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT || 3000;
 
-app.use(express.json());
+// אימות מול Render API
+renderApi.auth('rnd_dfz0iQh1VXR4EhUL5geo7OImmCcB');
 
-let todos = [];
-
-app.get('/todos', (req, res) => {
-    res.json(todos);
+app.get('/', async (req, res) => {
+  try {
+    const { data } = await renderApi.listServices({ includePreviews: 'true', limit: '20' });
+    res.json(data);
+  } catch (err) {
+    console.error(err);
+    res.status(500).send('Error fetching data from Render API');
+  }
 });
 
-app.post('/todos', (req, res) => {
-    const todo = req.body;
-    todos.push(todo);
-    res.status(201).json(todo);
-});
-
-app.put('/todos/:id', (req, res) => {
-    const id = parseInt(req.params.id);
-    const updatedTodo = req.body;
-    todos = todos.map(todo => (todo.id === id ? updatedTodo : todo));
-    res.json(updatedTodo);
-});
-
-app.delete('/todos/:id', (req, res) => {
-    const id = parseInt(req.params.id);
-    todos = todos.filter(todo => todo.id !== id);
-    res.status(204).send();
-});
-
-app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
+// הפעלת השרת
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
