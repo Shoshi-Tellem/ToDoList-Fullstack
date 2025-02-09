@@ -34,12 +34,12 @@ app.UseCors("AllowAll");
 
 app.MapGet("/", () => "toDoListServer api is running ");
 
-app.MapGet("items", async (ToDoDbContext context) =>
+app.MapGet("Items", async (ToDoDbContext context) =>
 {
     return Results.Ok(await context.Items.ToListAsync());
 });
 
-app.MapGet("items/{id}", async (int id, ToDoDbContext context) =>
+app.MapGet("Items/{id}", async (int id, ToDoDbContext context) =>
 {
     var existItem = await context.Items.FindAsync(id);
     if (existItem == null)
@@ -47,17 +47,17 @@ app.MapGet("items/{id}", async (int id, ToDoDbContext context) =>
     return Results.Ok(existItem);
 });
 
-app.MapPost("items", async (Item item, ToDoDbContext context) =>
+app.MapPost("Items", async (Item item, ToDoDbContext context) =>
 {
     var existItem = await context.Items.FindAsync(item.Id);
     if (existItem != null)
         return Results.Conflict("An item with the same Id already exists.");
     await context.Items.AddAsync(item);
     await context.SaveChangesAsync();
-    return Results.Created($"/items/{item.Id}", item);
+    return Results.Created($"/Items/{item.Id}", item);
 });
 
-app.MapPut("items/{id}", async (int id, ToDoDbContext context) =>
+app.MapPut("Items/{id}", async (int id, ToDoDbContext context) =>
 {
     var existItem = await context.Items.FindAsync(id);
     if (existItem == null)
@@ -67,7 +67,7 @@ app.MapPut("items/{id}", async (int id, ToDoDbContext context) =>
     return Results.NoContent();
 });
 
-app.MapDelete("items/{id}", async (int id, ToDoDbContext context) =>
+app.MapDelete("Items/{id}", async (int id, ToDoDbContext context) =>
 {
     var existItem = await context.Items.FindAsync(id);
     if (existItem == null)
