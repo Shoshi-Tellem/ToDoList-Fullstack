@@ -1,16 +1,17 @@
 {
-  "name": "express",
+  "name": "my-express-app",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1", "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "axios": "^1.7.9",
+    "@api/render-api": "file:.api/apis/render-api",
+    "api": "^6.1.2",
     "express": "^4.21.2"
   }
 }
