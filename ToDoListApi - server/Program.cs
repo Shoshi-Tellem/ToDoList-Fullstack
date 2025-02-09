@@ -5,6 +5,7 @@ using ToDoList_Fullstack;
 var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("ToDoDB");
+Console.WriteLine($"Connection string: {connectionString}");
 builder.Services.AddDbContext<ToDoDbContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
 );
